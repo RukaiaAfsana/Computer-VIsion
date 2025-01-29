@@ -47,7 +47,7 @@ def load_image(img_path):
     # ...existing code...
 
 model = MyModel()
-img_path = '/home/rukaia/Desktop/computer_vision/visualize_features_/sun'
+img_path = '/home/rukaia/Desktop/computer_vision/visualize_features_/sun.png'
 input_image = load_image(img_path)
 output = model(input_image)
 
